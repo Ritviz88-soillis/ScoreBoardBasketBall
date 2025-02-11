@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="score.css">
+    <script defer src="scores.js"></script>
+    <title>Basket Ball scorecard</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "teams">
+            
+            <span class = "title">Home</span>
+            <button class ="btn" id = "home-score">0</button>
+            <div class = "btns">
+                <button id = "home-btn1" class ="small-btn" onclick="homeAdd1()">+1</button>
+                <button id = "home-btn2" class ="small-btn" onclick="homeAdd2()">+2</button>
+                <button id = "home-btn3" class ="small-btn" onclick="homeAdd3()">+3</button>
+            </div>
+
+        </div>
+
+        <div class = "teams">
+
+            <span class = "title">Guest</span>
+            <button class= "btn" id = "guest-score">0</button>
+            <div class = "btns">
+                <button id = "guest-btn1" class ="small-btn" onclick="guestAdd1()">+1</button>
+                <button id = "guest-btn2" class ="small-btn" onclick="guestAdd2()">+2</button>
+                <button id = "guest-btn3" class ="small-btn" onclick="guestAdd3()">+3</button>
+            </div>   
+        </div>
+        <span id = "colon">:</span> 
+       <button id = "reset-el" onclick="reset()">Reset</button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "Cursed";
+    src: url("CursedTimerUlil-Aznm.ttf"); 
+}
+
+.container {
+    width: 575px;
+    height: 385px;
+    color : white;
+    background-color: #1B244A;
+    display: flex;
+    flex-direction: row;
+    margin-top:150px ;
+    justify-content: space-evenly;
+    
+}
+
+.teams .title{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 149px;
+    font-family: "Verdana";
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+.btn { 
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 160px;
+    height: 120px;
+    background-color: #080001;
+    padding: 18px 20px  0  0;
+    color: #F94F6D;
+    font-family: "Cursed";
+    font-weight: 400;
+    font-size: 85px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btns {
+    margin-left: 5px;
+}
+
+.small-btn {
+    width: 45px;
+    margin-left: 5px;
+    height: 45px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: "Cursed";
+    font-size: 18px;
+    font-weight: 400;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#reset-el {
+    position: absolute;
+    top: 480px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-family: "Cursed";
+    font-weight: bold;
+    color: #F94F6D;
+    font-size: 18px;
+}
+
+#reset-el:hover {
+    background-color: #F94F6D;
+    color: #FFF;
+}
+
+#colon {
+    position: absolute;
+    color: white;
+    top : 265px;
+    left: 745px;
+}
