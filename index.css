@@ -1,13 +1,16 @@
-body {
-    background-color: white;
+body  {
+    background: linear-gradient(to bottom, #1B244A 0%, #9AABD8 200%);
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #5A6791;
 }
 
 @font-face {
     font-family: "Cursed";
-    src: url("CursedTimerUlil-Aznm.ttf"); 
+    src: url("index.ttf"); 
 }
 
 .container {
@@ -38,9 +41,7 @@ body {
 }
 
 .btn { 
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin: 10px 10px 20px 0;
     width: 160px;
     height: 120px;
     background-color: #080001;
@@ -89,6 +90,23 @@ body {
 #colon {
     position: absolute;
     color: white;
-    top : 265px;
-    left: 745px;
+    top : 300px;
+    
+    font-size: 100px;
+    font-family: "Cursed";
+}
+
+ 
+
+@media (max-width: 768px) {
+  .container {
+    /* Keep similar desktop rules but adjust widths or margins as needed */
+    width: 575px;
+    margin-top: 150px;
+  }
+  
+  /* Adjust other elements here if desired */
+  .teams .title {
+    font-size: 40px;
+  }
 }
